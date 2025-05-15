@@ -9,7 +9,7 @@ class calc(qw.QMainWindow):
         self.setFixedSize(150, 200)
         self.setWindowTitle("calc")
         self.setStyleSheet("background-color: #2E3440; color: #D8DEE9;")
-        # self.setWindowIcon(qg.QIcon("icon.png"))
+        self.setWindowIcon(qg.QIcon("icon.png"))
 
     def init_ui(self):
         self.central_widget = qw.QWidget()
